@@ -4,6 +4,7 @@
 
 int[] masiv = new int[8];
 int count = 0;
+Console.Write("Массив: ");
 for(int i = 0; i < masiv.Length; i++)
 {
     masiv[i] = new Random().Next(100, 1000);
